@@ -1,11 +1,11 @@
 const express = require('express')
+const RotaLivro = require('./src/routes/livro')
 
 const app = express()
 port = 8000
 
-app.get('/', (req, res) => {
-    res.send('Executando um servidor com express.')
-})
+app.use('/livros', RotaLivro)
+
 
 app.listen(port, () => {
     console.log('Executando servidor na porta 8000')
