@@ -1,10 +1,1 @@
-[
-    {
-        "id": "1",
-        "nome": "Livro bacana"
-    },
-    {
-        "id": "2",
-        "nome": "Livro interessante"
-    }
-]
+[{"id":"1","nome":"Livro bacana"},{"id":"2","nome":"Dominando o Prisma"},{"id":"3","nome":"Dominando o Node"}]
